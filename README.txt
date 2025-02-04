@@ -1,0 +1,1 @@
+Eu fiz diversos códigos para fins de estudos, mas para a entrega optei pelo modelo de um automato que simula infecções de uma epidemia, pois estou nas duas cadeiras (Automato Celulares e Epidemiologia)
