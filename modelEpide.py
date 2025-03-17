@@ -31,8 +31,8 @@ def fractal_density(x, y, grid):
     valid = infected_counts > 0
     if np.sum(valid) > 1:
         D = np.polyfit(np.log(scales[valid]), np.log(infected_counts[valid]), 1)[0]
-        return max(D, 0.1)  # Evita D = 0
-    return 0.1  # Valor mínimo para evitar beta = 0
+        return max(D, 0.1)
+    return 0.1  
 
 def update(grid):
     """ Atualiza a grade conforme as regras do modelo """
